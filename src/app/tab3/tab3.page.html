@@ -1,0 +1,154 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Coolseum x La Once
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      
+    </ion-toolbar>
+  </ion-header>
+  <br><br>
+  <h1 class="textos" style="font-size: xx-large; font-weight: bold;">Nuestros colaboradores</h1><br><br>
+  <br>
+  <div class="imagenes">
+    <img src="https://play-lh.googleusercontent.com/akJTyBXIfFrCmn_0JoZWDeVwoeDwVU0i-kDXVOtI9NkxodK4YHgbeP18DoPcR8n5IvI" alt="" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+  </div>
+  <br><br><br>
+  <h2 class="titulos">La Once</h2><br><br>
+  <div class="contenedor-textos">
+
+    <p class="textos2">Como ya sabréis, la once es una organización Nacional de Ciegos Españoles. Es una corporación de derecho público de carácter social sin ánimo de lucro que tiene el propósito fundamental de mejorar la calidad de vida de las personas ciegas, personas con resto visual y personas con discapacidad de toda España.</p><br>
+
+    <p class="textos2">Colaboramos estrechamente con <strong>La Once</strong> dando charlas formativas sobre el ser invidente, adaptando nuestro centro a este tipo de discapacidad y ofreciendo oportunidades a todo tipo de personas sin juzgar sus capacidades</p>
+    <p class="textos2"></p><br>
+
+    <p class="textos2"></p>
+    <p class="textos2"></p><br>
+
+  </div><br><br><br>
+  
+  <div class="imagenes">
+    <img src="https://www.diariodealmeria.es/2022/06/07/almeria/Antonio-Manuel-Martinez_1690641062_160149201_1200x840.jpg" alt="" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+  </div>
+
+  <br><br>
+  <h2 class="titulos">La experiencia de Francisco en nuestro centro</h2><br><br>
+  <div class="contenedor-textos">
+    <p class="textos2">"Me gustó mucho estar en el centro, el personal y el público eran amables" - son declaraciones de Francisco José Briz</p><br>
+    <p class="textos2">"Di una charla de concienciación a la gente de la que todos salimos muy beneficiados" - tras su charla sobre la invidencia</p><br>
+  </div><br><br>
+
+  <ion-card class="formulario">
+    <ion-card-header>
+      <ion-card-title class="titulos2">Contacta</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label position="floating" color="success">Nombre:</ion-label>
+          <ion-input type="text" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" color="success">Email:</ion-label>
+          <ion-input type="email" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating" color="success">Mensaje:</ion-label>
+          <ion-textarea rows="4" required></ion-textarea>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+
+    <ion-footer>
+      <ion-button expand="block" color="warning">Enviar</ion-button>
+    </ion-footer>
+  </ion-card>
+  <br><br>
+</ion-content>
+
+<style>
+  .imagenes {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .textos {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .textos2 {
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+  }
+
+  .titulos {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+
+  .contenedor-textos {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  /* styles.css */
+
+/* Estilo para el fondo del formulario */
+.formulario {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Estilo para el título */
+.titulos2 {
+  color: #009835; /* Verde */
+  text-align: center;
+}
+
+/* Estilo para las etiquetas de los campos */
+ion-label {
+  font-weight: bold;
+}
+
+/* Estilo para los campos de entrada */
+ion-input,
+ion-textarea {
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+/* Estilo para el botón de enviar */
+ion-button {
+  margin-top: 20px;
+  --background: #F1C900; /* Amarillo */
+  --border-radius: 4px;
+}
+
+/* Estilo para el color de texto del botón */
+ion-button[expand="block"] {
+  color: #fff;
+}
+
+</style>

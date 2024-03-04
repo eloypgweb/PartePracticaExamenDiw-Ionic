@@ -1,0 +1,99 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Coolseum - Conócenos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar></ion-toolbar>
+  </ion-header>
+  <br><br>
+  <h1 class="txt">¡No dudes en venir a conocernos!</h1>
+  <h2 class="txt">Nos ubicamos en San Nicasio, Leganés. Podrás encontrarnos junto a gran parque, o consultando la siguiente ubicación:</h2>
+  <br>
+  <div class="mapa1">
+    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24330.05518414565!2d-3.807483720898457!3d40.33664679999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41898f0a35bd23%3A0x53cf08b23bf5f135!2sCentro%20C%C3%ADvico%20Jos%C3%A9%20Saramago!5e0!3m2!1ses!2ses!4v1709553204486!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <br>
+  <div class="center-content">
+    <ion-card class="ion-text-center">
+      <ion-card-header>
+        <ion-card-title>
+          <strong>Nuestra entrada</strong>
+          <ion-img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Centrocivicojosesaramago02.jpg"></ion-img>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Así es como se ve nuestro centro cívico desde fuera. Una entrada enorme con un pequeño parque, donde cabremos todos. ¡No dudes en venir a visitarnos!
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="ion-text-center">
+      <ion-card-header>
+        <ion-card-title>
+          <strong>Nuestros últimos eventos</strong>
+          <div class="image-container">
+            <ion-img class="small-image" src="https://lh3.googleusercontent.com/proxy/mrRJDaqaNjH6UjUKyMA1klZ9cHjdvVP_hyOewbBFM1CqjTOV0e89zbkm2cAtH3IgCISIhflS03Tp5l2KUl8klPx5Vz56eLGk5wnvL37Du_iyaJAe68WaOR_xgNOwLVqvtYbK4gl7a27odOrN0lNX4VnYcvUcZlDI089FYh_fq-yPQGOZQC_nVw"></ion-img>
+            <ion-img class="small-image" src="https://lh3.googleusercontent.com/proxy/1C0oa6oLL2FhS-ttayF19JRa9Y-6FO5cPPrndIXfeFdEMuLRsAuuEOuASwbF8IGFONlT_ENG3ooyEY_5Z-mCGHldHGTXj1j-2IqnkOBEsPDb7ib5qVivnXrAGNXDex2Hp36ZRw0FUX5yYiI9eAbM0Rfm0-icXDg51FUx4LQV2Wxo"></ion-img>
+          </div>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+       Contamos con eventos geniales para poder disfrutar en familia. Desde conciertos, hasta charlas de personas influyentes. ¡No te los pierdas!
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <style>
+    .mapa1{ 
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+    }
+    .mapa{ 
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .small-image {
+      width: 400px;
+      height: 600px;
+      margin: 5px;
+    }
+
+    /* .img {
+      margin: 0 auto;
+      text-align: center;
+      
+    } */
+
+    .txt {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .ion-text-center {
+      text-align: center;
+    }
+
+    .center-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    ion-card {
+      width: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</ion-content>
